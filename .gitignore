@@ -1,0 +1,6 @@
+# Your own settings (install.ps1 copies settings.default.json here)
+settings.json
+
+# Created while the widget runs
+logs/
+report.html

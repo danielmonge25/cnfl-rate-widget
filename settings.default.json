@@ -1,0 +1,36 @@
+{
+  "rates": {
+    "low": 23.10,
+    "mid": 55.19,
+    "high": 134.62
+  },
+  "ratesAbove500kWh": {
+    "low": 31.09,
+    "mid": 67.17,
+    "high": 166.46
+  },
+  "useAbove500kWhRates": false,
+  "alerts": {
+    "enabled": true,
+    "minutesBefore": 10,
+    "sound": true,
+    "voice": true,
+    "highCardSeconds": 25,
+    "midCardSeconds": 10
+  },
+  "showIconOnTaskbar": true,
+  "powerLog": {
+    "enabled": false,
+    "baseWatts": 30,
+    "cpuIdleWatts": 20,
+    "cpuMaxWatts": 76,
+    "psuEfficiency": 0.87,
+    "monitorsWatts": 45,
+    "gpuWattsWithoutNvidia": 15
+  },
+  "claudeShutdownSwitch": {
+    "enabled": false,
+    "ignoreCommands": "remotion studio|npm (run )?dev|vite|next dev",
+    "extraJobs": ""
+  }
+}
